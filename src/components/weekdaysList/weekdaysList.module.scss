@@ -1,0 +1,10 @@
+.weekdays-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px auto;
+  font-weight: 900;
+  font-size: 22px;
+  color: rgb(71, 53, 77);
+}

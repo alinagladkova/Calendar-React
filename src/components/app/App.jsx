@@ -1,6 +1,5 @@
-// import logo from './logo.svg';
-import "./App.css";
+import Wrapper from "../wrapper/Wrapper";
 
 export default function App() {
-  return "hello";
+  return <Wrapper />;
 }
