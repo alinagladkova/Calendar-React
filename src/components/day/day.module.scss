@@ -1,0 +1,33 @@
+.day {
+  width: calc(100% / 7);
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+// .day::before {
+//   position: absolute;
+//   content: "";
+//   height: 35px;
+//   width: 35px;
+//   top: 50%;
+//   left: 50%;
+//   z-index: -1;
+//   border-radius: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+// .day:hover::before {
+//   background: rgb(179, 121, 174);
+// }
+
+// .day--off {
+//   color: grey;
+//   font-weight: normal;
+// }
+
+// .day--today {
+//   font-size: 20px;
+//   font-weight: 900;
+//   color: #db2a85;
+//   text-shadow: 1px 1px 2px rgb(179, 121, 174);
+// }

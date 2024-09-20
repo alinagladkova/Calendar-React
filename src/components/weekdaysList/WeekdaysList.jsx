@@ -1,4 +1,4 @@
-import weekdays from "../../arrays.js";
+import { weekdays } from "../../arrays.js";
 import Weekday from "../weekday/Weekday";
 import styles from "./weekdaysList.module.scss";
 import cn from "classnames";
