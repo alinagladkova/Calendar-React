@@ -26,6 +26,8 @@ export default function MonthDaysList({ currentYear, currentMonth, useStatus }) 
     return days;
   };
 
+  // console.log(switchMonthHandler());
+
   return (
     <ul className={cn(styles[`month-list`])}>
       {setDays().map((day) => {
