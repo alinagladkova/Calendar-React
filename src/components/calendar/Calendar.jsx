@@ -41,12 +41,11 @@ export default function Calendar() {
           <Button icon={<BsChevronRight />} use="right" setMonthHandler={setNextMonthHandler} />
         </div>
       </div>
-      <Main currentYear={currYear} currentMonth={currMonth} />
+      <Main currentYear={currYear} currentMonth={currMonth} date={date} />
     </div>
   );
 }
 
-// -  переключать это дело по стрелочкам
 // - показывать текущую дату
 // -показывать дни прошлого месяца
 // -показывать дни будущего месяца
