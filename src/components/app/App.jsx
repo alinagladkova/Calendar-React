@@ -1,5 +1,5 @@
-import Wrapper from "../wrapper/Wrapper";
+import Calendar from "../calendar/Calendar";
 
 export default function App() {
-  return <Wrapper />;
+  return <Calendar></Calendar>;
 }

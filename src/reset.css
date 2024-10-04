@@ -1,3 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #382b22;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Reset and base styles  */
 * {
   padding: 0px;

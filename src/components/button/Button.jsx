@@ -1,10 +1,9 @@
 import styles from "./button.module.scss";
 import cn from "classnames";
 
-export default function Button({ icon, use, setMonthHandler, switchHandler }) {
+export default function Button({ icon, use, setMonthHandler }) {
   const clickAction = () => {
     setMonthHandler();
-    switchHandler(use);
   };
 
   return (
