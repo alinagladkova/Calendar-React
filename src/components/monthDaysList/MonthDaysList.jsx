@@ -35,7 +35,7 @@ export default function MonthDaysList({ currentYear, currentMonth, date }) {
             key={i}
             text={day}
             notCurrent={(i < 6 && day > 20) || (i > 24 && day < 8) ? "inactive" : ""}
-            today={i === date.getDate() && currentMonth && currentYear ? "today" : ""} //!!!
+            today={i === date.getDate() && currentMonth === date.getMonth() && currentYear === date.getFullYear() ? "today" : ""} //!!!
           ></Day>
         );
       })}

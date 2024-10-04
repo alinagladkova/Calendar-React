@@ -1,6 +1,9 @@
 .day {
+  position: relative;
   width: calc(100% / 7);
   margin: 10px 0;
+  color: #46244b;
+  z-index: 1;
   cursor: pointer;
   &--inactive {
     color: grey;
@@ -11,7 +14,7 @@
     color: #db2a85;
     text-shadow: 1px 1px 2px rgb(179, 121, 174);
   }
-  &:after {
+  &:hover:after {
     position: absolute;
     content: "";
     height: 35px;
@@ -23,23 +26,4 @@
     transform: translate(-50%, -50%);
     background: rgb(179, 121, 174);
   }
-  &:hover:after {
-    background: rgb(179, 121, 174);
-  }
 }
-
-// .day::before {
-//   position: absolute;
-//   content: "";
-//   height: 35px;
-//   width: 35px;
-//   top: 50%;
-//   left: 50%;
-//   z-index: -1;
-//   border-radius: 50%;
-//   transform: translate(-50%, -50%);
-// }
-
-// .day::before:hover {
-//   background: rgb(179, 121, 174);
-// }
